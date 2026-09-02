@@ -1,0 +1,42 @@
+.app-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.page-heading {
+  color: #1e293b;
+  margin-bottom: 2rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.employee-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1.25rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.employee-name {
+  color: #2563eb;
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
+
+.employee-card p {
+  margin: 0.4rem 0;
+  color: #475569;
+  font-size: 0.95rem;
+}
